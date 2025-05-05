@@ -1,0 +1,17 @@
+// A simple test program for our CC compiler
+
+// Function that calculates the sum of two numbers
+function add(int a, int b) -> int {
+    return a + b;
+}
+
+// Main program
+int x = 10;
+int y = 20;
+int result = add(x, y);
+
+// Test if statement
+if (result > 25) {
+    int z = 100;
+    result = result + z;
+}
